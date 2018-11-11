@@ -55,7 +55,7 @@
         });
 
         function Delete(id) {
-            alertify.confirm('Web Api CRUD Operations','Are You Sure to Delete this Record ?',function(){
+            alertify.confirm('Customer Delete','Are You Sure to Delete this Record ?',function(){
                 window.location.href  = '@Url.Action("Delete","Customer")/'+id;
             },null );
         }
