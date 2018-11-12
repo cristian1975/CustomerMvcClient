@@ -1,30 +1,8 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
-
-  <ItemGroup>
-    <None Include="wwwroot\Content\alertifyjs\alertify.css" />
-    <None Include="wwwroot\Content\alertifyjs\alertify.min.css" />
-    <None Include="wwwroot\Content\alertifyjs\alertify.rtl.css" />
-    <None Include="wwwroot\Content\alertifyjs\alertify.rtl.min.css" />
-    <None Include="wwwroot\Content\alertifyjs\themes\bootstrap.css" />
-    <None Include="wwwroot\Content\alertifyjs\themes\bootstrap.min.css" />
-    <None Include="wwwroot\Content\alertifyjs\themes\bootstrap.rtl.css" />
-    <None Include="wwwroot\Content\alertifyjs\themes\bootstrap.rtl.min.css" />
-    <None Include="wwwroot\Content\alertifyjs\themes\default.css" />
-    <None Include="wwwroot\Content\alertifyjs\themes\default.min.css" />
-    <None Include="wwwroot\Content\alertifyjs\themes\default.rtl.css" />
-    <None Include="wwwroot\Content\alertifyjs\themes\default.rtl.min.css" />
-    <None Include="wwwroot\Content\alertifyjs\themes\semantic.css" />
-    <None Include="wwwroot\Content\alertifyjs\themes\semantic.min.css" />
-    <None Include="wwwroot\Content\alertifyjs\themes\semantic.rtl.css" />
-    <None Include="wwwroot\Content\alertifyjs\themes\semantic.rtl.min.css" />
-    <None Include="wwwroot\Content\bootstrap.css" />
-    <None Include="wwwroot\Content\bootstrap.min.css" />
-    <None Include="wwwroot\Content\Site.css" />
-  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
